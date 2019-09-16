@@ -9,48 +9,44 @@ class RainbowDashboard extends HTMLElement {
       return response.json();
     })
     .then(function(json) {
-      let coops = JSON.parse(json.coops)
-      let output = '';
-      coops.forEach( (coop, index) => {
-        let colorArrayIndex = index % parseInt(labelColorArray.length - 1);
-        output += `<span class="barChart graph${index} ${labelColorArray[colorArrayIndex]} ${barColorArray[colorArrayIndex]}">
-          <h3>${coop[0]}</h3>
-        </span>`
-      })
+      // apply the logo
 
-      let buyers = JSON.parse(json.buyers)
-      let buyerOutput = '';
-      buyers.forEach( (item, index) => {
-        let buyerIndex = coops.length + index;
-        let colorArrayIndex = buyerIndex % parseInt(labelColorArray.length - 1);
-        buyerOutput += `<span class="barChart graph${buyerIndex} ${labelColorArray[colorArrayIndex]} ${barColorArray[colorArrayIndex]}">
-          <h3>${item[0]}</h3>
-        </span>`
-      })
-      element.innerHTML = output + buyerOutput;
+      let output = `<div class="rainbowDashboard">
+        <header>
+          <img class="logo" src="${json.meta.logo}" />
+          <h1>${json.meta.title} Dashboard</h1>
+        </header>
+        <nav>
+          <ul>
+            ${json.sections.map( (section, sectionCounter) => {
+              return `<li><a href="#section${sectionCounter}">${section.title}</a></li>`
+            }).join(' ')}
+          </ul>
+        </nav>
+        <content>
+          ${json.sections.map( (section, sectionCounter) => {
+          return `<div class="section${sectionCounter}">          
+            ${section.content.charts.map( (item, index) => {
+              let colorArrayIndex = index % parseInt(labelColorArray.length - 1);
+              return `<span class="barChart section${sectionCounter}Graph${index} ${labelColorArray[colorArrayIndex]} ${barColorArray[colorArrayIndex]}">
+                <h3>${item.title}</h3>
+              </span>`
+            }).join(' ')}
+          </div>`}).join('  ')}
+        </content>`;
+      
+      element.innerHTML = output;
 
-      coops.forEach( (coop, index) => {
-        drawBars(coop,'.graph'+index);
-      })
-
-      buyers.forEach( (item, index) => {
-        let buyerIndex = coops.length + index;
-        drawBars(item,'.graph'+buyerIndex);
+      json.sections.forEach( (section, sectionCounter) => {
+        section.content.charts.forEach( (item, index) => {
+          drawBars(item,'.section'+sectionCounter+'Graph'+index);
+        })
       })
 
     })
   }
 }
 customElements.define("rainbow-dash", RainbowDashboard);
-
-/*
-add to nicer looking layout
-  add coprocure header
-  add header tallies
-
-change the data format to pass in already graph friendly values
-and tally up the top level figures
-*/
 
 
 function drawBars(json, containerQuery) {
@@ -78,7 +74,7 @@ function drawBars(json, containerQuery) {
 
   // get the data
   let dataString = 'Field,Count\n';
-  for (let [key, value] of Object.entries(json[1])) {
+  for (let [key, value] of Object.entries(json.data)) {
     dataString += `${key},${value}\n`;
   }
 

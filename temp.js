@@ -38,7 +38,7 @@ fetch("https://data-pipeline-post-db.s3-us-west-2.amazonaws.com/dashboard/data.j
   cleanBuyerData.push(misc);
   o.sections.push(createSection('Non Coop Affiliated Buyers',cleanBuyerData));
 
-  console.log(JSON.stringify(o))
+  fs.writeFileSync('./data.json',JSON.stringify(o),'utf8')
 })
 
 function createSection(title, data) {

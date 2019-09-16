@@ -2,6 +2,9 @@ body {
   font-family: sans-serif;
   background-color: #263238;
 }
+.logo {
+  max-width: 200px;
+}
 .barChart {
   display: inline-flex;
   flex-flow: column;

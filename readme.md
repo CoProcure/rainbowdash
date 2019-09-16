@@ -2,7 +2,7 @@
 
 A dashboard that displays a set of charts in rainbow colors
 
-<!-- pic -->
+<img src="screenshot.png" />
 
 ## How to use
 
@@ -28,6 +28,7 @@ The <a href="index.html">index.html</a> file is an example of how to use this, c
         charts: [
           {
             "type": "bar",
+            "title": "A bar chart",
             "data": {
               "fieldname": "value", 
               "fieldname2": "value2" 
@@ -43,4 +44,5 @@ The <a href="index.html">index.html</a> file is an example of how to use this, c
 - Each section will appear as a sidebar link
 - The content in each section will be displayed in the main area when that link is selected
 - Data for each chart is a json object
-- The types of charts supported at ```bar, circle and sdjfkldsfk```
+
+Sample dataset labels powered by <a href="https://wordnik-ipsum.glitch.me/">Wordnik ipsum</a>

@@ -1,0 +1,614 @@
+{
+  "meta": {
+    "title": "Wordnik ipsum Dashboard",
+    "logo": "https://www.coprocure.us/img/logo_coprocure_white-min.png"
+  },
+  "sections": [
+    {
+      "title": "Seed word: infinitude for titles, swirl for labels",
+      "content": {
+        "headers": [
+          {
+            "text": "Elements in this section",
+            "value": 18
+          },
+          {
+            "text": "Random number",
+            "value": 23212
+          }
+        ],
+        "charts": [
+          {
+            "type": "bar",
+            "title": "circumscription",
+            "data": {
+              "whorl": 1670,
+              "backwater": 9,
+              "bluster": 5,
+              "billow": 9483,
+              "circulate": 48,
+              "centrifugate": 54,
+              "bustle": 534
+            }
+          },
+          {
+            "type": "bar",
+            "title": "infiniteness",
+            "data": {
+              "whorl": 8240,
+              "backwater": 52,
+              "bluster": 1,
+              "billow": 6251,
+              "circulate": 2,
+              "centrifugate": 285,
+              "bustle": 926
+            }
+          },
+          {
+            "type": "bar",
+            "title": "all",
+            "data": {
+              "whorl": 5969,
+              "backwater": 77,
+              "bluster": 6,
+              "billow": 993,
+              "circulate": 843,
+              "centrifugate": 994,
+              "bustle": 842
+            }
+          },
+          {
+            "type": "bar",
+            "title": "Gracelessness",
+            "data": {
+              "whorl": 7032,
+              "backwater": 61,
+              "bluster": 9,
+              "billow": 5470,
+              "circulate": 319,
+              "centrifugate": 582,
+              "bustle": 627
+            }
+          },
+          {
+            "type": "bar",
+            "title": "immensity",
+            "data": {
+              "whorl": 5177,
+              "backwater": 20,
+              "bluster": 6,
+              "billow": 6071,
+              "circulate": 720,
+              "centrifugate": 561,
+              "bustle": 320
+            }
+          },
+          {
+            "type": "bar",
+            "title": "infinit",
+            "data": {
+              "whorl": 4533,
+              "backwater": 71,
+              "bluster": 1,
+              "billow": 9135,
+              "circulate": 491,
+              "centrifugate": 600,
+              "bustle": 2
+            }
+          },
+          {
+            "type": "bar",
+            "title": "infiniteness",
+            "data": {
+              "whorl": 8240,
+              "backwater": 52,
+              "bluster": 1,
+              "billow": 6251,
+              "circulate": 2,
+              "centrifugate": 285,
+              "bustle": 926
+            }
+          },
+          {
+            "type": "bar",
+            "title": "infinite",
+            "data": {
+              "whorl": 5969,
+              "backwater": 77,
+              "bluster": 6,
+              "billow": 993,
+              "circulate": 843,
+              "centrifugate": 994,
+              "bustle": 842
+            }
+          },
+          {
+            "type": "bar",
+            "title": "unwoven",
+            "data": {
+              "whorl": 7032,
+              "backwater": 61,
+              "bluster": 9,
+              "billow": 5470,
+              "circulate": 319,
+              "centrifugate": 582,
+              "bustle": 627
+            }
+          },
+          {
+            "type": "bar",
+            "title": "infinity",
+            "data": {
+              "whorl": 1531,
+              "backwater": 47,
+              "bluster": 9,
+              "billow": 8863,
+              "circulate": 468,
+              "centrifugate": 283,
+              "bustle": 616
+            }
+          },
+          {
+            "type": "bar",
+            "title": "large",
+            "data": {
+              "whorl": 8288,
+              "backwater": 88,
+              "bluster": 0,
+              "billow": 1101,
+              "circulate": 102,
+              "centrifugate": 920,
+              "bustle": 905
+            }
+          },
+          {
+            "type": "bar",
+            "title": "plum-cake",
+            "data": {
+              "whorl": 3526,
+              "backwater": 76,
+              "bluster": 4,
+              "billow": 9953,
+              "circulate": 239,
+              "centrifugate": 981,
+              "bustle": 441
+            }
+          },
+          {
+            "type": "bar",
+            "title": "quality",
+            "data": {
+              "whorl": 8034,
+              "backwater": 0,
+              "bluster": 9,
+              "billow": 2787,
+              "circulate": 633,
+              "centrifugate": 862,
+              "bustle": 792
+            }
+          },
+          {
+            "type": "bar",
+            "title": "amount",
+            "data": {
+              "whorl": 7100,
+              "backwater": 52,
+              "bluster": 3,
+              "billow": 8425,
+              "circulate": 959,
+              "centrifugate": 290,
+              "bustle": 800
+            }
+          },
+          {
+            "type": "bar",
+            "title": "indefinite",
+            "data": {
+              "whorl": 1692,
+              "backwater": 27,
+              "bluster": 7,
+              "billow": 4715,
+              "circulate": 737,
+              "centrifugate": 27,
+              "bustle": 239
+            }
+          },
+          {
+            "type": "bar",
+            "title": "omnipresence",
+            "data": {
+              "whorl": 4873,
+              "backwater": 58,
+              "bluster": 7,
+              "billow": 2397,
+              "circulate": 288,
+              "centrifugate": 776,
+              "bustle": 129
+            }
+          },
+          {
+            "type": "bar",
+            "title": "omniscience",
+            "data": {
+              "whorl": 3815,
+              "backwater": 36,
+              "bluster": 1,
+              "billow": 7232,
+              "circulate": 149,
+              "centrifugate": 608,
+              "bustle": 244
+            }
+          },
+          {
+            "type": "bar",
+            "title": "quantity",
+            "data": {
+              "whorl": 929,
+              "backwater": 34,
+              "bluster": 2,
+              "billow": 330,
+              "circulate": 378,
+              "centrifugate": 613,
+              "bustle": 664
+            }
+          }
+        ]
+      }
+    },
+    {
+      "title": "Seed word: valiant for titles, crystallize for labels",
+      "content": {
+        "headers": [
+          {
+            "text": "Elements in this section",
+            "value": 26
+          },
+          {
+            "text": "Random Number",
+            "value": 35458
+          }
+        ],
+        "charts": [
+          {
+            "type": "bar",
+            "title": "brave",
+            "data": {
+              "carboxyl": 5601,
+              "crystallizing": 92,
+              "form": 1,
+              "diamond": 741,
+              "concrete": 735,
+              "cake": 521,
+              "psychometric": 966
+            }
+          },
+          {
+            "type": "bar",
+            "title": "stalwart",
+            "data": {
+              "carboxyl": 4408,
+              "crystallizing": 39,
+              "form": 6,
+              "diamond": 5110,
+              "concrete": 552,
+              "cake": 163,
+              "psychometric": 709
+            }
+          },
+          {
+            "type": "bar",
+            "title": "chivalrous",
+            "data": {
+              "carboxyl": 9456,
+              "crystallizing": 14,
+              "form": 3,
+              "diamond": 9442,
+              "concrete": 349,
+              "cake": 331,
+              "psychometric": 552
+            }
+          },
+          {
+            "type": "bar",
+            "title": "heroic",
+            "data": {
+              "carboxyl": 1092,
+              "crystallizing": 55,
+              "form": 2,
+              "diamond": 9921,
+              "concrete": 740,
+              "cake": 164,
+              "psychometric": 433
+            }
+          },
+          {
+            "type": "bar",
+            "title": "lion",
+            "data": {
+              "carboxyl": 452,
+              "crystallizing": 2,
+              "form": 7,
+              "diamond": 6370,
+              "concrete": 66,
+              "cake": 967,
+              "psychometric": 789
+            }
+          },
+          {
+            "type": "bar",
+            "title": "decorated hero",
+            "data": {
+              "carboxyl": 7184,
+              "crystallizing": 69,
+              "form": 2,
+              "diamond": 3270,
+              "concrete": 405,
+              "cake": 790,
+              "psychometric": 564
+            }
+          },
+          {
+            "type": "bar",
+            "title": "chutzpanik",
+            "data": {
+              "carboxyl": 9819,
+              "crystallizing": 63,
+              "form": 3,
+              "diamond": 8556,
+              "concrete": 387,
+              "cake": 858,
+              "psychometric": 631
+            }
+          },
+          {
+            "type": "bar",
+            "title": "gallant",
+            "data": {
+              "carboxyl": 2808,
+              "crystallizing": 1,
+              "form": 9,
+              "diamond": 5986,
+              "concrete": 932,
+              "cake": 563,
+              "psychometric": 440
+            }
+          },
+          {
+            "type": "bar",
+            "title": "victorious",
+            "data": {
+              "carboxyl": 2159,
+              "crystallizing": 4,
+              "form": 9,
+              "diamond": 9210,
+              "concrete": 82,
+              "cake": 91,
+              "psychometric": 504
+            }
+          },
+          {
+            "type": "bar",
+            "title": "good soldier",
+            "data": {
+              "carboxyl": 663,
+              "crystallizing": 63,
+              "form": 1,
+              "diamond": 8278,
+              "concrete": 644,
+              "cake": 309,
+              "psychometric": 766
+            }
+          },
+          {
+            "type": "bar",
+            "title": "doughty",
+            "data": {
+              "carboxyl": 7822,
+              "crystallizing": 78,
+              "form": 3,
+              "diamond": 3626,
+              "concrete": 556,
+              "cake": 949,
+              "psychometric": 400
+            }
+          },
+          {
+            "type": "bar",
+            "title": "enterprising",
+            "data": {
+              "carboxyl": 6006,
+              "crystallizing": 49,
+              "form": 4,
+              "diamond": 5541,
+              "concrete": 298,
+              "cake": 403,
+              "psychometric": 959
+            }
+          },
+          {
+            "type": "bar",
+            "title": "demigod",
+            "data": {
+              "carboxyl": 7543,
+              "crystallizing": 37,
+              "form": 7,
+              "diamond": 1237,
+              "concrete": 192,
+              "cake": 846,
+              "psychometric": 398
+            }
+          },
+          {
+            "type": "bar",
+            "title": "demigoddess",
+            "data": {
+              "carboxyl": 5119,
+              "crystallizing": 59,
+              "form": 5,
+              "diamond": 5108,
+              "concrete": 303,
+              "cake": 250,
+              "psychometric": 989
+            }
+          },
+          {
+            "type": "bar",
+            "title": "intrepid",
+            "data": {
+              "carboxyl": 9217,
+              "crystallizing": 50,
+              "form": 3,
+              "diamond": 5149,
+              "concrete": 531,
+              "cake": 28,
+              "psychometric": 830
+            }
+          },
+          {
+            "type": "bar",
+            "title": "bold heroine",
+            "data": {
+              "carboxyl": 8454,
+              "crystallizing": 98,
+              "form": 7,
+              "diamond": 8617,
+              "concrete": 360,
+              "cake": 939,
+              "psychometric": 619
+            }
+          },
+          {
+            "type": "bar",
+            "title": "Hardy",
+            "data": {
+              "carboxyl": 2487,
+              "crystallizing": 67,
+              "form": 9,
+              "diamond": 9192,
+              "concrete": 333,
+              "cake": 283,
+              "psychometric": 872
+            }
+          },
+          {
+            "type": "bar",
+            "title": "paladin",
+            "data": {
+              "carboxyl": 4942,
+              "crystallizing": 32,
+              "form": 9,
+              "diamond": 1690,
+              "concrete": 87,
+              "cake": 924,
+              "psychometric": 207
+            }
+          },
+          {
+            "type": "bar",
+            "title": "bold-spirited",
+            "data": {
+              "carboxyl": 6383,
+              "crystallizing": 67,
+              "form": 1,
+              "diamond": 6996,
+              "concrete": 461,
+              "cake": 105,
+              "psychometric": 326
+            }
+          },
+          {
+            "type": "bar",
+            "title": "resolute",
+            "data": {
+              "carboxyl": 9084,
+              "crystallizing": 46,
+              "form": 7,
+              "diamond": 2113,
+              "concrete": 791,
+              "cake": 810,
+              "psychometric": 91
+            }
+          },
+          {
+            "type": "bar",
+            "title": "stouthearted",
+            "data": {
+              "carboxyl": 144,
+              "crystallizing": 64,
+              "form": 0,
+              "diamond": 9295,
+              "concrete": 916,
+              "cake": 364,
+              "psychometric": 560
+            }
+          },
+          {
+            "type": "bar",
+            "title": "audacious",
+            "data": {
+              "carboxyl": 666,
+              "crystallizing": 20,
+              "form": 7,
+              "diamond": 9851,
+              "concrete": 900,
+              "cake": 685,
+              "psychometric": 797
+            }
+          },
+          {
+            "type": "bar",
+            "title": "bulldog",
+            "data": {
+              "carboxyl": 9944,
+              "crystallizing": 15,
+              "form": 0,
+              "diamond": 3301,
+              "concrete": 81,
+              "cake": 838,
+              "psychometric": 733
+            }
+          },
+          {
+            "type": "bar",
+            "title": "Warlike",
+            "data": {
+              "carboxyl": 283,
+              "crystallizing": 97,
+              "form": 2,
+              "diamond": 3765,
+              "concrete": 590,
+              "cake": 554,
+              "psychometric": 494
+            }
+          },
+          {
+            "type": "bar",
+            "title": "greathearted",
+            "data": {
+              "carboxyl": 3556,
+              "crystallizing": 83,
+              "form": 6,
+              "diamond": 2382,
+              "concrete": 606,
+              "cake": 770,
+              "psychometric": 681
+            }
+          },
+          {
+            "type": "bar",
+            "title": "knightly",
+            "data": {
+              "carboxyl": 684,
+              "crystallizing": 54,
+              "form": 0,
+              "diamond": 9030,
+              "concrete": 637,
+              "cake": 722,
+              "psychometric": 569
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

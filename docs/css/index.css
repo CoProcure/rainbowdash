@@ -2,13 +2,77 @@ body {
   font-family: sans-serif;
   background-color: #263238;
 }
+h1, h2 {
+  color: #fff;
+}
+header h1 {
+  position: absolute;
+  top: 10px;
+  right: 40px;
+}
 .logo {
   max-width: 200px;
 }
-.barChart {
+
+
+a {
+  color: #fff;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+nav {
+  position: sticky;
+  left: 0;
+  top: 80px;
+  height: 100vh;
+  width: 220px;
+  padding: 20px 0;
+  z-index: 3;
+}
+nav li {
+  padding: 10px;
+}
+nav li.selected {
+  background-color: #fff;
+}
+nav li a {
+  height: 40px;
+  width: 100%;
+  display: block;
+  line-height: 40px;
+  text-decoration: none;
+  cursor: pointer;
+}
+nav li.selected a {
+  color: #263238;
+}
+
+
+content {
+  position: absolute;
+  left: 260px;
+  top: 80px;
+}
+.data-section {
+  display: none;
+}
+.data-section.selected {
+  display: block;
+}
+.card {
+  color: #fff;
+}
+.barChart, .card {
   display: inline-flex;
   flex-flow: column;
-  margin-right: 50px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #37474F;
+  width: 380px;
+  box-sizing: border-box;
 }
 .barChart h3 {
   display: inline-block;

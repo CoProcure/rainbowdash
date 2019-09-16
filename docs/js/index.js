@@ -9,23 +9,30 @@ class RainbowDashboard extends HTMLElement {
       return response.json();
     })
     .then(function(json) {
-      // apply the logo
-
       let output = `<div class="rainbowDashboard">
         <header>
           <img class="logo" src="${json.meta.logo}" />
-          <h1>${json.meta.title} Dashboard</h1>
+          <h1>${json.meta.title ? json.meta.title : ''}</h1>
         </header>
         <nav>
           <ul>
             ${json.sections.map( (section, sectionCounter) => {
-              return `<li><a href="#section${sectionCounter}">${section.title}</a></li>`
+              return `<li class="${sectionCounter === 0 ? 'selected' : ''}"><a href="#section${sectionCounter}" data-section="section${sectionCounter}" class="js-section-link">${section.title}</a></li>`
             }).join(' ')}
           </ul>
         </nav>
         <content>
           ${json.sections.map( (section, sectionCounter) => {
-          return `<div class="section${sectionCounter}">          
+          return `<div class="section${sectionCounter} data-section ${sectionCounter === 0 ? 'selected' : ''}">
+            <h2>${section.title}</h2>
+            <div>
+              ${section.content.headers.map( (header) => {
+                return `<div class="card">
+                  <h1>${header.value.toLocaleString()}</h1>
+                  <h3>${header.text}</h3>
+                </div>`;
+              }).join(' ')}
+            </div>
             ${section.content.charts.map( (item, index) => {
               let colorArrayIndex = index % parseInt(labelColorArray.length - 1);
               return `<span class="barChart section${sectionCounter}Graph${index} ${labelColorArray[colorArrayIndex]} ${barColorArray[colorArrayIndex]}">
@@ -43,11 +50,19 @@ class RainbowDashboard extends HTMLElement {
         })
       })
 
+      element.querySelectorAll('.js-section-link').forEach( (link) => {
+        link.addEventListener('click', function(event) {
+          document.querySelectorAll('.selected').forEach( (item) => {
+            item.classList.remove('selected');
+          })
+          this.parentNode.classList.add('selected');
+          document.querySelector('.'+this.dataset.section).classList.add('selected');
+        })
+      })
     })
   }
 }
 customElements.define("rainbow-dash", RainbowDashboard);
-
 
 function drawBars(json, containerQuery) {
   // set the dimensions and margins of the graph

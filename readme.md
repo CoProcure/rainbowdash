@@ -1,6 +1,6 @@
 # Rainbow Dashboard
 
-An off the shelf dashboard that displays a set of charts in rainbow colors
+A dashboard that displays a set of charts in rainbow colors
 
 <!-- pic -->
 

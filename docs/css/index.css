@@ -119,3 +119,26 @@ content {
 .md9C27B0 rect.bar { fill: #9C27B0; }
 .mdE91E63 rect.bar { fill: #E91E63; }
 .mdf44336 rect.bar { fill: #f44336; }
+
+@media (max-width: 710px) {
+  content {
+    left: auto;
+    top: auto;
+    position: relative;
+  }
+  nav {
+    display: none;
+  }
+  header {
+    display: flex;
+    flex-flow: column;
+  }
+  header h1 {
+    position: relative;
+    top: auto;
+    right: auto;
+  }
+  body {
+    margin: 8px 12px;
+  }
+}

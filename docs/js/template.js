@@ -13,6 +13,11 @@ class RainbowDashboard extends HTMLElement {
         <header>
           <img class="logo" src="${json.meta.logo}" />
           <h1>${json.meta.title ? json.meta.title : ''}</h1>
+          <button class="hamburger hamburger--squeeze" type="button">
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+            </span>
+          </button>
         </header>
         <nav>
           <ul>
@@ -55,9 +60,17 @@ class RainbowDashboard extends HTMLElement {
           document.querySelectorAll('.selected').forEach( (item) => {
             item.classList.remove('selected');
           })
+          document.querySelectorAll('.is-active').forEach( (item) => {
+            item.classList.remove('is-active');
+          })
           this.parentNode.classList.add('selected');
           document.querySelector('.'+this.dataset.section).classList.add('selected');
         })
+      })
+
+      document.querySelector('.hamburger').addEventListener('click', function(event) {
+        this.classList.toggle('is-active');
+        document.querySelector('nav').classList.toggle('is-active');
       })
     })
   }

@@ -6,7 +6,7 @@ A dashboard that displays a set of charts in rainbow colors
 
 ## How to use
 
-The <a href="index.html">index.html</a> file is an example of how to use this, create your own HTML file with the: ```<rainbow-dash>``` custom element. Provide the url of your data json file as the ```data-src``` attribute value and include the source javascript file in your page. 
+The <a href="docs/index.html">index.html</a> file is an example of how to use this, create your own HTML file with the: ```<rainbow-dash>``` custom element. Provide the url of your data json file as the ```data-src``` attribute value and include the source javascript file in your page. 
 
 ## Data format
 
@@ -44,5 +44,7 @@ The <a href="index.html">index.html</a> file is an example of how to use this, c
 - Each section will appear as a sidebar link
 - The content in each section will be displayed in the main area when that link is selected
 - Data for each chart is a json object
+
+<a href="https://coprocure.github.io/rainbowdash/">Demo</a>
 
 Sample dataset labels powered by <a href="https://wordnik-ipsum.glitch.me/">Wordnik ipsum</a>
